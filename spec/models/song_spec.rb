@@ -10,6 +10,8 @@ RSpec.describe Song, type: :model do
       genre: "Post-Rock"
     }
   end
+  
+
 
   let(:missing_title) { valid_attributes.except(:title) }
   let(:missing_release_year) { valid_attributes.except(:release_year) }
